@@ -1,0 +1,31 @@
+#imagenCentral {
+  background-color: #82c3a6;
+  text-align: center;
+}
+
+#imagenCentral img {
+  width: 60%;
+  margin: 1em;
+}
+
+#imagenSecundaria {
+  background-color: #d5c75f;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#imagenSecundaria .columna1
+{
+  width: 50%;
+  text-align: center;
+}
+#imagenSecundaria .columna2
+{
+  width: 50%;
+  text-align: center;
+}
+#imagenSecundaria .columna1 img, #imagenSecundaria .columna2 img
+{
+  width: 80%;
+  margin: 1em 0;
+}
