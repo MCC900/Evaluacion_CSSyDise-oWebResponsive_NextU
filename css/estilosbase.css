@@ -3,6 +3,10 @@ body{
   background-color: #02010a;
 }
 
+img {
+  box-shadow: 2px 2px #02010a;
+}
+
 header {
   background-color: #5b7989;
   border-radius: 10px 10px 0px 0px;

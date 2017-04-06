@@ -14,17 +14,17 @@
   flex-flow: row nowrap;
 }
 
-#imagenSecundaria .columna1
+#imagenSecundaria .paisajes
 {
   width: 50%;
   text-align: center;
 }
-#imagenSecundaria .columna2
+#imagenSecundaria .retratos
 {
   width: 50%;
   text-align: center;
 }
-#imagenSecundaria .columna1 img, #imagenSecundaria .columna2 img
+#imagenSecundaria .paisajes img, #imagenSecundaria .retratos img
 {
   width: 80%;
   margin: 1em 0;
