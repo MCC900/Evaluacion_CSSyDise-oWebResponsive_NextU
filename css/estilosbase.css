@@ -1,5 +1,6 @@
 body{
   font-family: "Dancing Script", cursive;
+  font-size: 1.2em;
   background-color: #02010a;
 }
 
@@ -36,4 +37,20 @@ header nav a{
 
 .linkPaginaActual {
   text-decoration: none;
+}
+
+footer {
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 1%;
+}
+
+footer h2{
+    margin: 0;
+}
+
+div[class^="footerCol"] {
+  width: 25%;
 }
