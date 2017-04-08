@@ -20,14 +20,12 @@
   text-align: center;
 }
 
-#imagenSecundaria .retratos
-{
+#imagenSecundaria .retratos {
   width: 50%;
   text-align: center;
 }
 
-#imagenSecundaria .paisajes img
-{
+#imagenSecundaria .paisajes img {
   width: 80%;
   margin: 1em 0;
   border:1px solid black;
@@ -35,15 +33,13 @@
   transition-duration: 1s, 1s, 1s;
 }
 
-#imagenSecundaria .paisajes img:hover
-{
+#imagenSecundaria .paisajes img:hover {
   transform: rotate(10deg);
   box-shadow: 2px 2px #82c3a6;
   border: 2px solid black;
 }
 
-#imagenSecundaria .retratos img
-{
+#imagenSecundaria .retratos img {
   width: 80%;
   margin: 1em 0;
   border:1px solid black;
@@ -51,9 +47,22 @@
   transition-duration: 1s, 1s, 1s;
 }
 
-#imagenSecundaria .retratos img:hover
-{
+#imagenSecundaria .retratos img:hover {
   transform: translate(20px, -5px);
   box-shadow: 2px 2px #82c3a6;
   border: 2px solid black;
+}
+
+@media (max-width:900px) {
+  #imagenSecundaria {
+    flex-flow: column nowrap;
+  }
+
+  #imagenSecundaria .retratos {
+    width: 100%;
+  }
+
+  #imagenSecundaria .paisajes {
+    width: 100%;
+  }
 }
