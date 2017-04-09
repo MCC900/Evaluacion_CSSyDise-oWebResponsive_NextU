@@ -65,6 +65,7 @@ footer {
   flex-flow: row nowrap;
   padding: 1%;
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 footer h2 {
@@ -74,6 +75,12 @@ footer h2 {
 div[class^="footerCol"] {
   width: 25%;
   margin: 1.5%;
+}
+
+footer .footerColRedes img {
+  width: 1em;
+  margin-right: 0.3em;
+  border-radius: 0.2em;
 }
 
 @media (max-width:900px) {
@@ -88,6 +95,7 @@ div[class^="footerCol"] {
   header h1, header nav{
     margin: auto;
   }
+
   footer {
     flex-flow: column nowrap;
   }
@@ -95,5 +103,11 @@ div[class^="footerCol"] {
   div[class^="footerCol"] {
     width: 100%;
     margin-bottom: 0.8em;
+  }
+
+  footer .footerColRedes img {
+    width: 1.5em;
+    margin-right: 0.3em;
+    border-radius: 0.3em;
   }
 }
