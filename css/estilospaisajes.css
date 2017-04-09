@@ -1,0 +1,37 @@
+#galeria {
+  background-color: #82c3a6;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#galeria div {
+  width: 33.33%;
+  text-align:center;
+}
+
+#galeria div img {
+  width: 80%;
+  margin: 1em auto;
+}
+
+#galeria div:first-child img {
+  filter: blur(10px);
+}
+
+#galeria div:nth-child(even) img {
+  filter: grayscale(100%);
+}
+
+#galeria div:nth-child(3) img {
+  filter:sepia(90%);
+}
+
+@media (max-width:900px) {
+  #galeria {
+    flex-flow: column nowrap;
+  }
+
+  #galeria div {
+    width: 100%;
+  }
+}
